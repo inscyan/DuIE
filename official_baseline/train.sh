@@ -9,7 +9,7 @@ python -m paddle.distributed.launch --gpus "0" run_duie.py \
                             --device gpu \
                             --seed 42 \
                             --do_train \
-                            --data_path ./data \
+                            --data_path ../data \
                             --max_seq_length 128 \
                             --batch_size $BATCH_SIZE \
                             --num_train_epochs $EPOCH \
